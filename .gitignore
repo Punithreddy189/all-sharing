@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production / Build output
+dist/
+build/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+mobile-app/.env
+mobile-app/.env.local
+mobile-app/.env.*.local
+!mobile-app/.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & IDE directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Mobile App & Expo & Android
+mobile-app/.expo/
+mobile-app/node_modules/
+mobile-app/*.tgz
+mobile-app/android/.gradle/
+mobile-app/android/build/
+mobile-app/android/app/build/
+mobile-app/android/.idea/
+mobile-app/android/*.iml
+mobile-app/android/local.properties
+
+# Binary package outputs (prevent GitHub 100MB limit error)
+*.apk
+*.aab
+release-apk/*.apk
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+

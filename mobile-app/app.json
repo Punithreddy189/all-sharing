@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "EcoShare",
+    "slug": "ecoshare-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.ecoshare.app"
+    }
+  }
+}
